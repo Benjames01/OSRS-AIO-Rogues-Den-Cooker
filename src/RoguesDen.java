@@ -22,7 +22,7 @@ import nodes.CookNode;
 import nodes.Node;
 import tasks.Task;
 
-@ScriptManifest(author = "Scaffed", description = "Cooks many things at Rogue's Den in Burthope.", category = Category.COOKING, name = "Ben's AIO Rogue's Den", version = 0.1)
+@ScriptManifest(author = "Ben", description = "Cooks many things at Rogue's Den in Burthope.", category = Category.COOKING, name = "Ben's AIO Rogue's Den", version = 0.1)
 public class RoguesDen extends AbstractScript{
 
 	private ArrayList<Task> tasks = new ArrayList<Task>();
@@ -78,7 +78,7 @@ public class RoguesDen extends AbstractScript{
 	public void onStart() {
 		gui = new GUI(this);
 		gui.getJFrame().setVisible(true);
-	}
+	}` `
 	
     @Override
     public void onMessage(Message message) {
