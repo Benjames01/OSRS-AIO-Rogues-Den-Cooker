@@ -1,6 +1,7 @@
 package nodes;
 
 public interface Node {
-	boolean validate();
-	void execute();
+    boolean validate();
+
+    void execute();
 }
